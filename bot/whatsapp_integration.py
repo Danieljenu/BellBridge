@@ -19,7 +19,7 @@ import requests
 # Replace them with your real functions from your bell/assembly code.
 # -------------------------
 try:
-    from school_bell_system import (
+    from bot.school_bell_system import (
         play_audio_blocking,
         ringBell,
         BELL_SCHEDULES,
